@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uber Eats</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Caprasimo&family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel='icon' href='uber-favicon.png' type='image/x-icon' sizes="16x16" class="rounded-circle"/>
+</head>
+<body>
+  <!-- navigation bar -->
+  <nav class="navbar bg-transparent sticky-top container-fluid p-4">
+    <div class="justify-content-start">
+
+      <button style="font-size: 30px;font-weight:bolder;"class="bi bi-list bg-transparent border-0 text-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" >
+        <span class="border-0"></span>
+      </button>
+      <div class="offcanvas offcanvas-start w-25 " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" >
+        <div class="offcanvas-body ">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" >
+            <li class="nav-item">
+              <button class="btn px-4 login-btn mt-2 ms-3">Sign up</button>
+            </li>
+            <li class="nav-item">
+              <button class="btn mt-2 px-4 ms-3 signup-btn shadow-sm">Login</button>
+            </li>
+            <li>
+              <a class="dropdown-item ms-1 bg-transparent" href="#">Create a business account</a></li>
+            <li>
+              <a class="dropdown-item ms-1 bg-transparent" href="#">Add your restaurant</a>
+            </li>
+            <li>
+              <a class="dropdown-item ms-1 bg-transparent" href="#">Sign up to deliver</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex p-3 g-5">
+          <div class="btn btn-dark w-25 h-100 ms-3 rounded fw-bolder fs-5">Uber<br><span class="text-success">Eats</span></div>
+          <div class="text-dark d-flex ms-3 mt-2">There's more to love in <br>the app.</div>
+      </div>
+      <div class="mb-5 p-3">
+        <button class="btn btn-light rounded-pill bi bi-apple ms-3 text-dark shadow-sm"> iPhone</button>
+        <button class="btn btn-light rounded-pill bi bi-android2 ms-1 text-dark shadow-sm"> Android</button>
+      </div>
+      </div>
+      <a class="navbar-brand fs-2 fw-bold text-dark" href="#"><span class="fw-lighter ms-3">Uber</span> <span class="fw-bold">Eats</span></a>
+    </div>
+    <div class="social-group">
+    <button class="btn btn-dark login-btn-2 rounded-pill p-2"><span class="bi bi-person-fill pe-1"></span>log in</button>
+    <button class="btn btn-dark signup-btn-2 rounded-pill p">Sign up</button>
+  </div>
+  </nav>
+
+  <!-- section 1 -->
+  <section class="section-1">
+
+    <div class="hstack row section-1-intro ms-3">
+      <div class="ms-auto mb-4">
+        <h1 class="fw-bolder display-5">Order food to your door</h1>
+      </div>
+      <div class="col-6 location-bar d-sm-block">
+        <div class="bg-light p-3 m-1">
+          <div style="font-size: 17px;" class="d-flex">
+            <span  class="bi bi-geo-alt-fill d-flex align-self-center"></span>
+            <input class="ms-3 me-1 border-0 bg-transparent" type="text" placeholder="Enter your delivery Address">
+          </div>
+        </div>
+      </div>
+        <div class="dropdown col-2 schedule-bar">
+          <button class="btn btn-light dropdown-toggle bi bi-clock-fill p-3 rounded-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Deliver now
+          </button>
+          <ul class="dropdown-menu w-100 border-0 bg-light mb-0">
+            <li><a class="dropdown-item p-3" href="#"><i class="bi bi-clock-fill pe-2"></i>Deliver now</a></li>
+            <li><a class="dropdown-item p-3" href="#"><i class="bi bi-calendar-event-fill"></i><span class="px-2">Schedule for later</span></a></li>
+          </ul>
+        </div>
+      <div class="col">
+        <button class="btn btn-dark p-3 rounded-5 find-food-btn ms-2">Find Food</button>
+      </div>
+      <div>
+        <div class="fs-6 ms-1 mt-3 fw-light">
+          <small><a href="#" class="link-dark">Sign In</a> for your recent addresses</small>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- section 2 -->
+<section class="sec-2">
+  <div class="d-sm-inline">
+    <div class="row g-0">
+      <div class="col">
+      <div class="card border-0" style="width: 25rem; margin-left: 50px;">
+        <img src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/88d55f7112efe55f.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h1 class="card-title">Feed your employees</h1>
+            <a href="" class="link-dark card-link">Create a business account</a>
+        </div>
+      </div>
+      </div>
+      <div class="col">
+        <div class="card border-0" style="width: 25rem;margin-left: 20px;">
+          <img src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/711d51ca1b458931.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h1 class="card-title">Your restaurant, delivered</h1>
+              <a href="" class="link-dark card-link">Add your restaurant</a>
+          </div>
+        </div>
+        </div>
+        <div class="col">
+          <div class="card border-0" style="width: 25rem; margin-left: -10px;">
+            <img src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/16522a701585873b.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h1 class="card-title">Deliver with Uber Eats</h1>
+                <a href="" class="link-dark card-link">Sign up to deliver</a>
+            </div>
+          </div>
+          </div>
+    </div>
+  </div>
+
+<div class="ms-5 mt-5">
+  <div class="row">
+    <div class="col text-start">
+        <h1>Cities near me</h2>
+      </div>
+      <div class="col text-end me-5 mt-3">
+        <a href="#" class="link-dark">View all 500+ cities</a>
+      </div>
+  </div>
+</div>
+<div class="mx-5 mt-3">
+  <img src="maps.png" class="google-map" alt="maps">
+ 
+  
+  <div class="justify-content-between pt-4">
+    <a href="#" class="link-dark text-decoration-none me-5 mombasa-tag">Mombasa</a>
+    <a href="#" class="link-dark text-decoration-none">Nairobi</a>
+  </div>
+  
+</div>
+<div class="ms-5 mt-5 countries">
+  <div class="row">
+    <div class="col text-start">
+        <h1>Countries with Uber Eats</h2>
+      </div>
+      <div class="col text-end me-5 mt-3">
+        <a href="#" class="link-dark">View all countries</a>
+      </div>
+  </div>
+</div>
+<!-- countries -->
+<div class="ms-5 country-list"> 
+  <div class="row text-start py-3">
+    <div class="col">Australia</div>
+    <div class="col">France</div>
+    <div class="col">Netherlands</div>
+    <div class="col">Sweden</div>
+  </div>
+  <div class="row text-start py-3">
+    <div class="col">Belgium</div>
+    <div class="col">Germany</div>
+    <div class="col">Netherlands</div>
+    <div class="col">Switzerland</div>
+  </div>
+  <div class="row text-start py-3">
+    <div class="col">Canada</div>
+    <div class="col">Guatamela</div>
+    <div class="col">Panama</div>
+    <div class="col">Taiwan (ROC)</div>
+  </div>
+  <div class="row text-start py-3">
+    <div class="col">Chile</div>
+    <div class="col">Ireland</div>
+    <div class="col">Poland</div>
+    <div class="col">United Kingdom</div>
+  </div>
+  <div class="row text-start py-3">
+    <div class="col">Costa Rica</div>
+    <div class="col">Italy</div>
+    <div class="col">Portugal</div>
+    <div class="col">United States</div>
+  </div>
+  <div class="row text-start py-3">
+    <div class="col">Dominican Republic</div>
+    <div class="col">Japan</div>
+    <div class="col">South Africa</div>
+    <div class="col"></div>
+  </div>
+  <div class="row text-start py-3">
+    <div class="col">Ecuador</div>
+    <div class="col">Kenya</div>
+    <div class="col">Spain</div>
+    <div class="col"></div>
+  </div>
+  <div class="row text-start py-3">
+    <div class="col">El Salvador</div>
+    <div class="col">Mexico</div>
+    <div class="col">Sri Lanka</div>
+    <div class="col"></div>
+  </div>
+</div>
+</section>
+<hr>
+<!-- section-3 -->
+<section>
+  <div class="ms-5 option-list mt-5">
+  <div class="row justify-content-around">
+    <div class="col-6">
+      <div class="btn btn-dark download-button text-start w-25 rounded-3 me-3 pe-0">
+        <div class="download-icon col">
+          <span class="bi bi-apple fs-2 float-start py-0 download-icon pe-0"></span>
+        </div>
+        <div class="col download-text pe-0">
+          <small class="download-btn-text1 py-0">Download on the</small>
+          <p class="download-btn-text2 py-0">Apple Store</p>
+        </div>
+        
+      </div>
+      <div class="btn btn-dark download-button text-start w-25 rounded-3 me-0 pe-0">
+        <div class="download-icon col">
+          <span class="bi bi-google-play fs-2 py-1 float-start download-icon pe-0"></span>
+        </div>
+        <div class="col download-text pe-0">
+          <small class="download-btn-text1">Get it on</small>
+          <p class="download-btn-text2">Google Play</p>
+        </div>
+      </div>
+    </div>
+    <div class="col text-start">
+      <div class="col py-2">Get Help</div>
+      <div class="col py-2">Add your restaurant</div>
+      <div class="col py-2">Sign up to deliver</div>
+      <div class="col py-2">Create a business account</div>
+    </div>
+    <div class="col text-start">
+        <div class="col py-2">Restaurants near me</div>
+        <div class="col py-2">View all cities</div>
+        <div class="col py-2">View all countries</div>
+        <div class="col py-2">About Uber Eats</div>
+        <div class="col py-2">English</div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<hr>
+<section>
+  <div class="last-section mx-5">
+    <div class="d-flex">
+      <a href=""  class="link-dark"><div class="bi bi-facebook me-4"></div></a>
+      <a href=""  class="link-dark"><div class="bi bi-twitter me-4"></div></a>
+      <a href=""  class="link-dark"><div class="bi bi-instagram me-4"></div></a>
+    </div>
+    <div class="text-end pt-4">
+      <small><a href="" class="link-dark me-3 text-decoration-none">Privacy Policy</a></small>
+      <small><a href="" class="link-dark me-3 text-decoration-none">Terms</a></small>
+      <small><a href="" class="link-dark me-3 text-decoration-none">Pricing</a></small>
+      <small><a href="" class="link-dark me-3 text-decoration-none">Do not sell or share my personal information</a></small>
+    </div>
+    <div class="text-end pt-3">
+      <small>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+        © 2023 Uber Technologies Inc.</small>
+    </div>
+  </div>
+</section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
